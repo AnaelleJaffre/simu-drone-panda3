@@ -49,11 +49,6 @@ src
 └── README.md
 ```
 
-## Logique fonctionnelle
-
-À détailler.
-
-
 ## Pogramme principal
 
 Le scripte [`main.py`](main.py) permet de lancer la totalité du projet, soit l'interface PyQt5 en relation avec la simulation du drône sur panda3d.
@@ -73,4 +68,5 @@ L’objectif du script est de :
 
 ### Dépendances
 - PyQt5 | Librairie utilisée pour générer l'interface. Sert à encapsuler Panda3D dans un widget Qt, et permet un contrôle de l'utilisateur sur la simulation.
+
 - Panda3d | Librairie utilisée pour simuler le drône dans un environnement 3D.
