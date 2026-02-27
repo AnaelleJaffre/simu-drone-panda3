@@ -1,0 +1,104 @@
+/* Fenêtre principale */
+#FenetrePrincipale {
+    background-color: #ffffff;
+}
+
+/* Boutons */
+QPushButton {
+    background-color: #444444;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 12px;
+}
+QPushButton:hover {
+    background-color: #666666;
+}
+
+/* Sliders horizontaux (caméra) */
+QSlider::groove:horizontal {
+    border: none;
+    height: 20px;
+    background: #d0d0d0;
+    border-radius: 10px;
+}
+QSlider::sub-page:horizontal {
+    background: #b7d0e8;
+    border-radius: 10px;
+}
+QSlider::handle:horizontal {
+    background: #ffffff;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+/* Sliders verticaux (moteurs) */
+QSlider::groove:vertical {
+    width: 6px;
+    background: #d0d0d0;
+    border-radius: 3px;
+}
+QSlider::add-page:vertical {
+    background: #444444;
+    border-radius: 3px;
+}
+QSlider::sub-page:vertical {
+    background: #d0d0d0;
+    border-radius: 3px;
+}
+QSlider::handle:vertical {
+    width: 18px;
+    height: 18px;
+    margin: -6px;
+    background: #444444;
+    border-radius: 9px;
+    border: none;
+}
+
+/* Jauge d’altitude */
+QProgressBar {
+    border: none;
+    width: 27px;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+QProgressBar::chunk {
+    height: 6px;
+    background: #b3f2da;
+    border-radius: 3px;
+    margin-top: 1px;
+}
+
+/* GroupBox moteurs */
+QGroupBox {
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 8px;
+    padding: 0 4px;
+}
+
+/* Conteneur controles (droite) */
+QGroupBox#ConteneurControles {
+    margin-top: 4px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+/* Zone graphique (bas) */
+#ZoneGraphiquePid {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}

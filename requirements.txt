@@ -1,0 +1,5 @@
+numpy
+matplotlib
+seaborn
+panda3d
+PyQt5
