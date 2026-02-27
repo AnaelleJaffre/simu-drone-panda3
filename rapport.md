@@ -1,5 +1,5 @@
 # Généralités
-L'objectif de ce mini-projet, tenu sur deux semaines de jours ouvrés, était de me former aux concepts qui vont être abordés durant le stage. Il s'agissait aussi de prendre du recul par rapport à l'objectif du stage, pour avoir une vision plus générale du sujet. Thibaut avait fixé une consigne dans ce cadre, et j'ai ensuite établi des objectifs liés à cette consigne.
+Ce mini-projet a été fait sur deux semaines, dans le cadre d'un stage en entreprise. Il s'agit d'une première approche vers la maîtrise des concepts abordés durant le stage.
 
 **Consigne :** Mise en œuvre d’un système mécatronique et autres permettant de mettre en œuvre un filtre simple ou complexe d’asservissement.
 
@@ -66,4 +66,4 @@ J'ai plusieurs hypothèses pour l'expliquer :
 
 # Vue extérieure
 
-Ce mini-projet m'a permis d'avoir une vision plus nette de ce qu'est un asservissement, un filtre d'asservissement ainsi que de la manière dont sont faites les simulations du monde physique. C'était très enrichissant, et je pense que ce sera utile pour la suite de mon stage.
+Ce mini-projet m'a permis d'avoir une vision plus nette de ce qu'est un asservissement, un filtre d'asservissement ainsi que de la manière dont sont faites les simulations du monde physique.
